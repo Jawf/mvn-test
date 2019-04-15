@@ -1,4 +1,4 @@
-/.project
-
-/.git
-/.settings
+**.gitignore
+**.project
+**.git
+**.settings
