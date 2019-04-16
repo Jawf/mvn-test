@@ -1,6 +1,6 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.yxt.mavensample</groupId>
+  <groupId>com.yxt.mavensample.zhibo</groupId>
   <artifactId>com.yxt.mavensample.zhibo</artifactId>
   <parent>
 	<groupId>com.yxt.mavensample</groupId>
