@@ -1,7 +1,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.yxt.mavensample.zhibo</groupId>
-	<artifactId>com.yxt.mavensample.zhibo</artifactId>
+	<groupId>com.yxt.mavensample.polestar</groupId>
+	<artifactId>com.yxt.mavensample.polestar</artifactId>
 	<parent>
 		<groupId>com.yxt.mavensample</groupId>
 		<artifactId>com.yxt.mavensample</artifactId>
@@ -9,9 +9,5 @@
 	</parent>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>YXT Zhibo Product/Module</name>
-	<modules>
-		<module>waf</module>
-		<module>api</module>
-	</modules>
+	<name>YXT Polestar Product/Module</name>
 </project>
