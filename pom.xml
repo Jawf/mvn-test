@@ -1,4 +1,4 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yxt.mavensample</groupId>
   <artifactId>com.yxt.mavensample</artifactId>
@@ -13,6 +13,32 @@
   </parent>
   <modules>
 		<module>base</module>
+		<module>qida</module>
+		<module>polestar</module>
         <module>zhibo</module>
   </modules>
+  
+  <scm> 
+        <url>http://172.17.128.236:8081/nexus/content/repositories/mvntest.release</url>
+        <!--connection, developerConnection: 都是连接字符串，其中后者是具有write权限的scm连接 -->
+        <!--需要打包项目的git地址(只读)-->
+        <connection>scm:git:E:/work/Yxt/sourceCode/mvn-test</connection>
+         <!--需要打包项目的git地址(可写)-->
+        <developerConnection>scm:git:/E/work/Yxt/sourceCode/mvn-test</developerConnection>
+      	<tag>HEAD</tag>
+       <!--  <connection>scm:svn:http://192.168.1.100:8443/svn/myapp/trunk/</connection>  
+  		<developerConnection>scm:svn:https://192.168.1.100:8443/svn/myapp/trunk/</developerConnection>  -->
+  </scm>
+    
+  <distributionManagement>
+	<snapshotRepository>
+		<id>mvntest.snapshot</id>
+		<url>http://172.17.128.236:8081/nexus/content/repositories/mvntest.snapshot</url>
+	</snapshotRepository>
+	<repository>
+		<id>mvntest.release</id>
+		<url>http://172.17.128.236:8081/nexus/content/repositories/mvntest.release</url>
+	</repository>
+  </distributionManagement>
+
 </project>
