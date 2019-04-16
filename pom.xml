@@ -5,14 +5,28 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>YXT Projects</name>
-  <parent>
+<!--   <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.8.RELEASE</version>
 		<relativePath />
-  </parent>
+  </parent> -->
   <modules>
 		<module>base</module>
+		<module>qida</module>
+		<module>polestar</module>
         <module>zhibo</module>
   </modules>
+  
+  <dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>1.5.8.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+  </dependencyManagement>
 </project>
