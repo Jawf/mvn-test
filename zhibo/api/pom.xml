@@ -4,16 +4,16 @@
 	<parent>
 		<groupId>com.yxt.mavensample.zhibo</groupId>
 		<artifactId>com.yxt.mavensample.zhibo</artifactId>
-		<version>1.2-SNAPSHOT</version>
+		<version>1.2</version>
 	</parent>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 	<name>YXT Zhibo Api</name>
 	<dependencies>
 		<dependency>
 			<groupId>com.yxt.mavensample.zhibo</groupId>
 			<artifactId>com.yxt.mavensample.zhibo.waf</artifactId>
-			<version>1.2-SNAPSHOT</version>
+			<version>1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
