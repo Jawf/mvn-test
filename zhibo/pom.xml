@@ -5,10 +5,10 @@
 	<parent>
 		<groupId>com.yxt.mavensample</groupId>
 		<artifactId>mvn-test-parent</artifactId>
-		<version>1.1</version>
+		<version>1.2-SNAPSHOT</version>
 	</parent>
 	<packaging>pom</packaging>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<name>YXT Zhibo Product/Module</name>
 	<modules>
 		<module>waf</module>

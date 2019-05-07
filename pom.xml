@@ -3,7 +3,7 @@
 	<groupId>com.yxt.mavensample</groupId>
 	<artifactId>mvn-test-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<name>YXT Parent Projects</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,7 +25,7 @@
 		<connection>scm:git:https://github.com/Jawf/mvn-test.git</connection>
 		<!--需要打包项目的git地址(可写) -->
 		<developerConnection>scm:git:https://github.com/Jawf/mvn-test.git</developerConnection>
-		<tag>mvn-test-parent-1.1</tag>
+		<tag>HEAD</tag>
 		<!-- <connection>scm:svn:http://192.168.1.100:8443/svn/myapp/trunk/</connection> 
 			<developerConnection>scm:svn:https://192.168.1.100:8443/svn/myapp/trunk/</developerConnection> -->
 	</scm>
